@@ -4,8 +4,8 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: example_pdf.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: >-
+  I am currently pursuing a joint undergraduate and master's degree in Mathematics at UCLA through the Departmental Scholars Program, with plans to join the PhD program at NYU this year. I'm passionate about developing the foundations of deep learning, with research interests spanning deep learning theory, diffusion models, and the broader intersection of mathematics and artificial intelligence.
 toc:
   sidebar: left
 ---

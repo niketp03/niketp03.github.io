@@ -2,96 +2,158 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Niket Patel
+    - name: Email
+      value: niketpatel@g.ucla.edu
+    - name: Mobile
+      value: +1 (916) 990-4754
+    - name: Summary
+      value: >-
+        I am currently pursuing a joint undergraduate and master's degree in Mathematics at UCLA through the Departmental Scholars Program, with plans to join the PhD program at New York University in 2025. I'm passionate about developing the foundations of deep learning, with research interests spanning deep learning theory, diffusion models, and the broader intersection of mathematics and artificial intelligence.
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD, Data Science
+      institution: New York University
+      year: 2025–Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Advisor: Julia Kempe
 
-- title: Experience
+    - title: MA, Mathematics
+      institution: University of California, Los Angeles
+      year: 2023–2025
+      description:
+        - Honors: Departmental Scholar in Mathematics
+        - Coursework: Deep Learning Theory; Probability Theory; PDE; Optimization; Smooth Manifolds
+
+    - title: BS, Applied Mathematics
+      institution: University of California, Los Angeles
+      year: 2021–2025
+      description:
+        - Coursework: Neural Networks; Mathematical Statistics; Deep Learning Theory; Real Analysis; Linear Algebra; Graph Theory
+        - GPA: 3.85/4
+
+- title: Peer-Reviewed Writing – Conference and Workshop Papers
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - year: 2025
+      title: '<a href="https://arxiv.org/abs/2502.02013">Layer by Layer: Uncovering Hidden Representations in Language Models</a>'
+      institution: '<a href="https://arxiv.org/abs/2502.02013">International Conference on Machine Learning (ICML) 2025</a>'
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Oscar Skean, Md Rifat Arefin, Dan Zhao, Niket Patel, Jalal Naghiyev, Yann LeCun, Ravid Shwartz-Ziv
+        - Award:
+            contents:
+              - ICML Spotlight Paper, Oral Presentation
+
+    - year: 2025
+      title: '<a href="https://arxiv.org/abs/2412.18283">On the Local Complexity of Linear Regions in Deep ReLU Networks</a>'
+      institution: '<a href="https://arxiv.org/abs/2412.18283">International Conference on Machine Learning (ICML) 2025</a>'
       description:
-        - Description 1.
-        - Description 2.
+        - Niket Patel, Guido Montúfar
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - year: 2024
+      title: '<a href="https://arxiv.org/abs/2410.07687">Learning to Compress: Local Rank and Information Compression in Deep Neural Networks</a>'
+      institution: '<a href="https://arxiv.org/abs/2410.07687">NeurIPS Workshop on Compression 2024</a>'
       description:
+        - Niket Patel, Ravid Shwartz-Ziv
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - year: 2023
+      title: '<a href="https://arxiv.org/abs/2311.00938">Bridging the Gap: Addressing Discrepancies in Diffusion Model Training for Classifier-Free Guidance</a>'
+      institution: 'NeurIPS Workshop on Diffusion Models 2023'
+      description:
+        - Niket Patel, Luis Salamanca, Luis Barba
 
-- title: Open Source Projects
+- title: Research Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Undergraduate Researcher
+      institution: UCLA, Department of Mathematics
+      year: Oct. 2023–Present
+      description:
+        - Advisor: Dr. Guido Montúfar
+        - Investigating the dynamics of linear regions in ReLU neural networks, specifically how the density of these regions evolves in the lazy and rich regimes of training.
+        - Researching “grokking” where neural networks develop strong robustness late in training.
+        - Participating in weekly group discussions and seminars to advance deep learning theory with fellow researchers in the Math Machine Learning Group.
 
-- title: Honors and Awards
+    - title: Leading Open-Science Research Projects
+      year: May 2024–Present
+      description:
+        - Advisor: Dr. Ravid Shwartz-Ziv
+        - Helping lead an “open-to-all” science initiative, focusing on developing an information theoretic understanding of large language models.
+        - Coordinated biweekly team meetings throughout the summer to drive collaboration and progress.
+        - Published a paper at a NeurIPS workshop on Information Compression, where we established connections between low-rank bias and the information bottleneck principle.
+        - Project featured as “A New Model for Scientific Collaboration” by NYU Center for Data Science (https://nyudatascience.medium.com/open-research-on-discord-a-new-model-for-scientific-collaboration-1c07fb56ba13).
+
+    - title: Visiting Research Intern
+      institution: ETH Zürich, Swiss Data Science Center
+      year: June 2023–Sept. 2023
+      description:
+        - Advisors: Dr. Fernando Perez-Cruz & Dr. Luis Salamanca
+        - Researching probabilistic diffusion models for generative parametric design with applications in architecture and civil engineering.
+        - Created novel methods for training conditional diffusion models, achieving superior performance compared to previous VAE architectures.
+        - Applied diffusion models to problems such as pedestrian bridge and acoustic panel design.
+        - Published work in the NeurIPS Diffusion Workshop, 2023.
+
+    - title: Research Assistant
+      institution: Stanford University, School of Medicine
+      year: May 2020–Sept. 2022
+      description:
+        - Advisors: Dr. Tushar Desai & Dr. Pehr Harbury
+        - Developed machine learning models in Python to analyze in-situ tissues from single-cell RNA-seq data, focusing on optimizing gene selection for cell type identification.
+        - Created novel algorithms that can achieve cell classification using sets of genes ten times smaller than previous methods, enabling simultaneous multi-cell type staining.
+
+- title: Teaching & Other Activities
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Assistant Instructor
+      institution: UCLA Olga Radko Endowed Math Circle
+      year: Sept. 2024–Dec. 2025
+      description:
+        - Assisted in teaching weekly mathematics classes to advanced middle school students, with a focus on geometry.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Vice President, UCLA CS Theory Club
+      year: Sept. 2023–Present
+      description:
+        - Facilitated weekly discussions on theoretical computer science topics, including multi-party computation and zero-knowledge proofs.
+        - Created quarter-long reading group introducing students to the field of Deep Learning Theory, covering topics ranging from statistical learning theory to the neural tangent kernel.
 
-- title: Other Interests
-  type: list
+    - title: Project Lead & Mentor, Data Science Union
+      year: Sept. 2021–Dec. 2025
+      description:
+        - Led deep learning projects such as patent classification using transformer models and graph neural networks, and zero-shot multi-modal models with latent space communication, providing mentorship and guidance to team members.
+        - Mentored multiple students in the development of data science projects, focusing on advanced technologies such as deep learning.
+
+    - title: Instructor, Deep Learning Seminar Series
+      year: Jan. 2023–March 2023
+      description:
+        - Taught a quarter-long seminar series on modern deep learning methods to 20-30 students, facilitated by the Data Science Union at UCLA.
+        - Covered topics ranging from mathematical formulations of multi-layer perceptrons to empirical scaling laws of Transformers, emphasizing both theoretical foundations and practical applications.
+
+- title: Professional Experience
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Data Science Research Assistant
+      institution: Better.com
+      year: Jun. 2022–Aug. 2022
+      description:
+        - Presented analytics on millions of records across databases, with SQL and Python visualizations.
+        - Created multi-touch marketing models with LSTM and Transformer architectures in TensorFlow.
+
+- title: Academic Involvement & Attended Conferences
+  type: time_table
+  contents:
+    - year: 2024
+      title: Neural Information Processing Systems
+    - year: 2024
+      title: Theory and Practice of Deep Learning, IPAM
+    - year: 2024
+      title: Analyzing High-dimensional Traces of Intelligent Behavior Workshop, IPAM
+    - year: 2024
+      title: EnCORE Workshop on Computational vs Statistical Gaps in Learning and Optimization, IPAM
+    - year: 2023
+      title: Neural Information Processing Systems
+    - year: 2023
+      title: Peer Reviewer, Diffusion Workshop, NeurIPS 2023
+    - year: 2023
+      title: Explainable AI for the Sciences: Towards Novel Insights Workshop, IPAM
