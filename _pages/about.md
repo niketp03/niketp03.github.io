@@ -4,11 +4,15 @@ title: about
 permalink: /
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false
 
-news: true # includes a list of news items
-social: true # includes social icons at the bottom of the page
+news: false
+social: true
 ---
 
-Hello! I'm Niket Patel, a joint BA/MS student in Mathematics at UCLA through the Departmental Scholars Program, and I plan to pursue a PhD in Data Science at New York University in 2025. My research focuses on deep learning theory, diffusion models, and the mathematical foundations of artificial intelligence. When I'm not working on research, I enjoy hiking, solving complex math puzzles, and exploring new coffee shops around campus.
+I'm a PhD student in Data Science at the [NYU Center for Data Science](https://cds.nyu.edu/), advised by [Julia Kempe](https://cims.nyu.edu/~kempe/). My research is broadly in deep learning theory — I'm interested in understanding how and why neural networks learn the representations they do, and using that understanding to build better systems.
+
+Previously, I completed a joint BS/MS in Applied Mathematics and Mathematics at UCLA (Departmental Scholars Program). I've spent time as a research intern at ETH Zürich (Swiss Data Science Center) and as an AI Research Scientist Intern at WorldQuant. I'm currently an incoming Research Intern at Meta FAIR (Paris).
+
+My work has appeared at ICML, NeurIPS workshops, and as preprints. I'm always happy to chat about research.
