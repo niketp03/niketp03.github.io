@@ -1,14 +1,4 @@
 {% assign repo_parts = include.repository | split: '/' %}
 {% assign repo_owner = repo_parts[0] %}
 {% assign repo_name = repo_parts[1] %}
-
-<a href="https://github.com/{{ include.repository }}" target="_blank" rel="noopener noreferrer" class="repo-card-link">
-  <div class="repo-card">
-    <img class="repo-avatar" src="https://github.com/{{ repo_owner }}.png" alt="{{ repo_owner }}">
-    <div class="repo-info">
-      <span class="repo-owner">{{ repo_owner }}</span>
-      <span class="repo-separator">/</span>
-      <span class="repo-name">{{ repo_name }}</span>
-    </div>
-  </div>
-</a>
+<div class="repo-card"><a href="https://github.com/{{ include.repository }}" target="_blank" rel="noopener noreferrer" class="repo-card-link"><img class="repo-avatar" src="https://github.com/{{ repo_owner }}.png" alt="{{ repo_owner }}"><div class="repo-info"><span class="repo-owner">{{ repo_owner }}</span><span class="repo-separator">/</span><span class="repo-name">{{ repo_name }}</span></div></a></div>
