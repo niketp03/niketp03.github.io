@@ -538,29 +538,29 @@ footer.sticky-bottom {
 
 // Repositories
 
+.repo-card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+  transition: border-color 0.15s ease;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+  }
+}
+
 .repo-card-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
   text-decoration: none;
   color: inherit;
 
   &:hover {
     text-decoration: none;
     color: inherit;
-
-    .repo-card {
-      border-color: var(--global-theme-color);
-    }
   }
-}
-
-.repo-card {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  padding: 0.75rem 1rem;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 8px;
-  margin-bottom: 0.75rem;
-  transition: border-color 0.15s ease;
 
   .repo-avatar {
     width: 36px;
